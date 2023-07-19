@@ -93,7 +93,7 @@
 /* banner section ends here */ 
 .grid-container{
     display: grid; 
-    border: 1px solid red; 
+    /* border: 1px solid red;  */
     max-width: 1400px; 
     margin:50px auto 0; 
     min-height: 400px; 
@@ -112,8 +112,21 @@
 } 
 .photo-container img{
   width: 10%;
+} 
+/* ends online games */
+.section-container{  
+    display: flex;
+    /* font-size: 48px;  */
+    /* font-weight: 200; */ 
+    /* text-align: center;  */
+    
+} 
+.image-container{ 
+    display: flex;
+    position:  relative; 
+    bottom: 100px;
 }
-
+/* online games section ends  */
 
 /* responsive mobile query start here */ 
 @media screen and (max-width:576px){

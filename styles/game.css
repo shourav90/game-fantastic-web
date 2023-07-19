@@ -87,14 +87,36 @@
      width: 50%;
   } 
   .banner-img img{
-    width: 100%; 
+    width: 80%; 
     height: 100%;
   } 
+/* banner section ends here */ 
+.grid-container{
+    display: grid; 
+    border: 1px solid red; 
+    max-width: 1400px; 
+    margin:50px auto 0; 
+    min-height: 400px; 
+    text-align: center;
+} 
+.grid-container h3{
+    font-size: 3rem; 
+    font-weight: 700;
+}
+.fun{
+   color:#F948B2;
+} 
+.photo container{
+    width: 30%; 
 
+} 
+.photo-container img{
+  width: 10%;
+}
 
 
 /* responsive mobile query start here */ 
-@media screen and (max-width:400px){
+@media screen and (max-width:576px){
     nav containar{
         flex-direction: column;
     } 
@@ -109,4 +131,4 @@
     }
     
 }
-  
+ 
